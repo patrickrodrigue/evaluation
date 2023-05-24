@@ -1,0 +1,104 @@
+:root {
+    --primary-color: rgb(223, 223, 223);
+    
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 60%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    word-wrap: break-word;
+    border-radius: 3px;
+    color: #000000;
+    border-radius: 10px;
+}
+p{
+    display: block;
+}
+  
+form input,
+
+form {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.checkbox{
+    height: 15px;
+    width: 15px;
+}
+
+form button:active{
+    background:rgb(0, 0, 59);
+   }
+
+.checkboxNumr{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 9px;
+    font-size: 18px;
+
+}
+.checkboxTxt{
+    margin-left: 2em;
+    position: relative;
+    top: -2.2em;
+}
+.checkbox{
+    margin-left: 15px;
+    position: relative;
+    top: -10px;
+   
+}
+.errada{
+    background-color: rgba(255, 0, 0, 0.26);
+    color: #000000;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+.certa{
+    background-color: rgba(4, 0, 255, 0.26);
+    color: #000000;
+    border: 3px solid rgb(38, 0, 255);
+    border-radius: 10px;
+}
+.check{
+    position: fixed;
+    top: 0.5em;
+    left: 83%;
+    width: 16.5%;
+    height: 13%;
+    background-color: rgb(255, 255, 255);
+
+}
+.btt{
+    position: absolute;
+    top: 7.5em;
+    width: 100%;
+    cursor: pointer;
+    padding: 0.2rem 1rem;
+    border-radius: 5px;
+    border: none;
+}
+.btt:hover{
+    background-color: #918f8f;
+}
+p{
+    font-size: 20px;
+}
